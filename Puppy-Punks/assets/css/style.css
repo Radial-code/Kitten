@@ -1,8 +1,8 @@
 :root {
     /*================================== FONT-SIZES ================================================ */
-    --font-xs: 24px !important;
-    --font-md: 28px !important;
-    --font-lg: 54px !important;
+    --font-xs: 16px !important;
+    --font-md: 18px !important;
+    --font-lg: 32px !important;
     /*================================== COLOR-CLASS ================================================ */
     --color-white: #FFFFFF;
     --color-black: #000000;
@@ -11,32 +11,7 @@
 
 
 
-@media (max-width: 992px) {
-    :root {
-        /*================================== FONT-SIZES ================================================ */
-        --font-xs: 24px !important;
-        --font-md: 28px !important;
-        --font-lg: 34px !important;
-        /*================================== COLOR-CLASS ================================================ */
-        --color-white: #FFFFFF;
-        --color-black: #000000;
-        --color-grey: #688597;
-    }
-}
-
-
 @media (max-width: 576px) {
-    :root {
-        /*================================== FONT-SIZES ================================================ */
-        --font-xs: 14px !important;
-        --font-md: 18px !important;
-        --font-lg: 26px !important;
-        /*================================== COLOR-CLASS ================================================ */
-        --color-white: #FFFFFF;
-        --color-black: #000000;
-        --color-grey: #688597;
-    }
-
     .kity_height_adjust {
         height: 80px !important;
     }
@@ -106,4 +81,10 @@ body {
 .eth_border {
     border-left: 3.5px solid var(--color-black);
     border-right: 3.5px solid var(--color-black);
+}
+
+
+.container-xs {
+    max-width: 500px;
+    margin: auto;
 }
