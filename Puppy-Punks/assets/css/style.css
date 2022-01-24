@@ -1,0 +1,109 @@
+:root {
+    /*================================== FONT-SIZES ================================================ */
+    --font-xs: 24px !important;
+    --font-md: 28px !important;
+    --font-lg: 54px !important;
+    /*================================== COLOR-CLASS ================================================ */
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-grey: #688597;
+}
+
+
+
+@media (max-width: 992px) {
+    :root {
+        /*================================== FONT-SIZES ================================================ */
+        --font-xs: 24px !important;
+        --font-md: 28px !important;
+        --font-lg: 34px !important;
+        /*================================== COLOR-CLASS ================================================ */
+        --color-white: #FFFFFF;
+        --color-black: #000000;
+        --color-grey: #688597;
+    }
+}
+
+
+@media (max-width: 576px) {
+    :root {
+        /*================================== FONT-SIZES ================================================ */
+        --font-xs: 14px !important;
+        --font-md: 18px !important;
+        --font-lg: 26px !important;
+        /*================================== COLOR-CLASS ================================================ */
+        --color-white: #FFFFFF;
+        --color-black: #000000;
+        --color-grey: #688597;
+    }
+
+    .kity_height_adjust {
+        height: 80px !important;
+    }
+}
+
+
+@font-face {
+    font-family: Segoe-ui;
+    src: url("../segoe-ui-4-cufonfonts/Segoe\ UI.ttf");
+}
+
+body {
+    font-family: Segoe-ui !important;
+}
+
+
+.kitty_section {
+    min-height: 100vh;
+    background-color: var(--color-grey);
+}
+
+.main_head {
+    font-size: var(--font-lg);
+    color: var(--color-black);
+    font-weight: 700;
+}
+
+
+.main_para {
+    font-size: var(--font-xs);
+    color: var(--color-black);
+    font-weight: 600;
+}
+
+.mint_btn {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-size: var(--font-md);
+    font-weight: 700;
+}
+
+.mint_btn:hover {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-size: var(--font-md);
+    font-weight: 700;
+    opacity: .8;
+}
+
+
+.social_media a {
+    text-decoration: none;
+    color: var(--color-black);
+    font-size: var(--font-md);
+    font-weight: 600;
+}
+
+
+.social_media a:hover {
+    color: var(--color-black);
+    font-size: var(--font-md);
+    font-weight: 600;
+    opacity: .7 !important;
+}
+
+
+.eth_border {
+    border-left: 3.5px solid var(--color-black);
+    border-right: 3.5px solid var(--color-black);
+}
