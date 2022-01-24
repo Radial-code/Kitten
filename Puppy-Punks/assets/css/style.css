@@ -1,9 +1,7 @@
 :root {
-    /*================================== FONT-SIZES ================================================ */
     --font-xs: 16px !important;
     --font-md: 18px !important;
     --font-lg: 32px !important;
-    /*================================== COLOR-CLASS ================================================ */
     --color-white: #FFFFFF;
     --color-black: #000000;
     --color-grey: #688597;
